@@ -2,9 +2,9 @@ package PD3;
 
 public class MainMaquinaB {
     public static void main(String[] args) {
-        Gato gato = new Gato("Firulais");
-        System.out.println(gato.getNombre());
-        gato.maullar();
-        System.out.println(gato.respondeA("Firulais"));
+        Perro perro = new Perro("Firulais");
+        System.out.println(perro.getNombre());
+        perro.ladrar();
+        System.out.println(perro.respondeA("Firulais"));
     }
 }
